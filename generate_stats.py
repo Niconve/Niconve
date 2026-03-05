@@ -23,7 +23,7 @@ query($login: String!) {
   user(login: $login) {
     name
     createdAt
-    repositories(privacy: BOTH, first: 100, ownerAffiliations: OWNER) {
+    repositories(first: 100, ownerAffiliations: OWNER) {
       totalCount
       nodes {
         name
