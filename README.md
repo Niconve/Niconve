@@ -179,41 +179,25 @@ status  : ● Open — available for collab & freelance
 &nbsp;
 
 <!-- ════ SHOWCASE ════ -->
-## 🖼️ Showcase
-
-<!--
-  ════════════════════════════════════════════════════
-  🖼️  SLOT GAMBAR PROJECT
-  Cara paling mudah upload gambar:
-  1. Buka tab Issues di repo ini
-  2. Klik New Issue
-  3. Drag & drop screenshot kamu ke text area
-  4. GitHub langsung kasih URL → copy
-  5. Cancel issue (tidak perlu submit)
-  6. Paste URL ke src="" di bawah
-
-  Nama file untuk kamu rename sebelum upload:
-  → project1.png  project2.png  project3.png  project4.png
-  ════════════════════════════════════════════════════
--->
+## ✦ Showcase
 
 <div align="center"><table><tr>
 <td align="center" width="50%">
-<img src="https://via.placeholder.com/440x230/0a0a0a/e8290b?text=◼+project1.png" width="100%"/>
-<br/><sub><b>Project Name</b> &nbsp;·&nbsp; Next.js · Web App</sub>
+<img src="./card1.svg" width="100%"/>
+<br/><sub><b>Android Dev</b> &nbsp;·&nbsp; Kotlin · Java · Android Studio</sub>
 </td>
 <td align="center" width="50%">
-<img src="https://via.placeholder.com/440x230/0f0f0f/f4f3ef?text=◼+project2.png" width="100%"/>
-<br/><sub><b>App Name</b> &nbsp;·&nbsp; React Native · Android APK</sub>
+<img src="./card2.svg" width="100%"/>
+<br/><sub><b>Web Dev</b> &nbsp;·&nbsp; Next.js · React</sub>
 </td>
 </tr><tr>
 <td align="center" width="50%">
-<img src="https://via.placeholder.com/440x230/111/8a8a8a?text=◼+project3.png" width="100%"/>
-<br/><sub><b>Design Work</b> &nbsp;·&nbsp; Figma · UI/UX</sub>
+<img src="./card3.svg" width="100%"/>
+<br/><sub><b>Mobile</b> &nbsp;·&nbsp; Kotlin · JVM · OOP</sub>
 </td>
 <td align="center" width="50%">
-<img src="https://via.placeholder.com/440x230/0a0a0a/e8290b?text=◼+project4.png" width="100%"/>
-<br/><sub><b>Coming Soon</b> &nbsp;·&nbsp; ✦ stay tuned</sub>
+<img src="./card4.svg" width="100%"/>
+<br/><sub><b>NICONVE™</b> &nbsp;·&nbsp; Creative Developer · Malang</sub>
 </td>
 </tr></table></div>
 
