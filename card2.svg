@@ -1,0 +1,113 @@
+<svg width="440" height="230" viewBox="0 0 440 230" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="440" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <style>
+      .blink2 { animation: blink2 1.2s step-end infinite; }
+      @keyframes blink2 { 0%,100%{opacity:1} 50%{opacity:0} }
+      .spin { animation: spin 8s linear infinite; transform-origin: 350px 115px; }
+      @keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+      .spin2 { animation: spin2 12s linear infinite reverse; transform-origin: 350px 115px; }
+      @keyframes spin2 { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+      .f0 { animation: fi .6s ease both; }
+      .f1 { animation: fi .6s ease .15s both; }
+      .f2 { animation: fi .6s ease .3s both; }
+      .f3 { animation: fi .6s ease .45s both; }
+      .f4 { animation: fi .6s ease .6s both; }
+      .f5 { animation: fi .6s ease .75s both; }
+      .f6 { animation: fi .6s ease .9s both; }
+      @keyframes fi { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
+      .bar-fill { animation: barFill 2s ease .5s both; transform-origin: left; transform: scaleX(0); }
+      @keyframes barFill { to { transform: scaleX(1); } }
+      .bar-fill2 { animation: barFill 2s ease .8s both; transform-origin: left; transform: scaleX(0); }
+      .bar-fill3 { animation: barFill 2s ease 1.1s both; transform-origin: left; transform: scaleX(0); }
+      .scan2 { animation: scan2 4s linear infinite; }
+      @keyframes scan2 { from{transform:translateY(-5px)} to{transform:translateY(240px)} }
+    </style>
+    <clipPath id="c2"><rect width="440" height="230"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#c2)">
+    <rect width="440" height="230" fill="url(#bg2)"/>
+
+    <!-- Scan line -->
+    <rect class="scan2" x="0" y="0" width="440" height="1.5" fill="#f4f3ef" opacity=".04"/>
+
+    <!-- Spinning orbit rings around N logo -->
+    <circle class="spin f0" cx="350" cy="115" r="55" fill="none" stroke="#e8290b" stroke-width=".8" stroke-dasharray="4 8" opacity=".4"/>
+    <circle class="spin2 f0" cx="350" cy="115" r="72" fill="none" stroke="#f4f3ef" stroke-width=".5" stroke-dasharray="2 12" opacity=".15"/>
+
+    <!-- Next.js N logo -->
+    <g class="f1">
+      <circle cx="350" cy="115" r="38" fill="#0a0a0a" stroke="#f4f3ef" stroke-width="1.2" opacity=".9"/>
+      <text x="350" y="124" font-family="Georgia,serif" font-weight="700" font-size="38"
+            fill="#f4f3ef" text-anchor="middle" opacity=".95">N</text>
+      <!-- gradient slash on N -->
+      <line x1="333" y1="100" x2="368" y2="132" stroke="#e8290b" stroke-width="3" opacity=".7"/>
+    </g>
+
+    <!-- Orbit dots -->
+    <g class="spin f2">
+      <circle cx="405" cy="115" r="5" fill="#e8290b"/>
+    </g>
+    <g class="spin2 f2" style="animation-delay:.4s">
+      <circle cx="350" cy="43" r="4" fill="#f4f3ef" opacity=".5"/>
+    </g>
+
+    <!-- Terminal window left -->
+    <g class="f0">
+      <rect x="18" y="24" width="272" height="180" rx="6" fill="#0f0f0f" stroke="#222" stroke-width="1"/>
+      <!-- title bar -->
+      <rect x="18" y="24" width="272" height="26" rx="6" fill="#161616"/>
+      <rect x="18" y="38" width="272" height="12" fill="#161616"/>
+      <circle cx="36" cy="37" r="5" fill="#e8290b" opacity=".7"/>
+      <circle cx="52" cy="37" r="5" fill="#555" opacity=".5"/>
+      <circle cx="68" cy="37" r="5" fill="#555" opacity=".5"/>
+      <text x="145" y="41" font-family="'Courier New',monospace" font-size="8" fill="#444" text-anchor="middle" letter-spacing="1">niconve — next.js</text>
+    </g>
+
+    <!-- Terminal content -->
+    <g class="f1">
+      <text x="30" y="68" font-family="'Courier New',monospace" font-size="8.5" fill="#555">~</text>
+      <text x="42" y="68" font-family="'Courier New',monospace" font-size="8.5" fill="#e8290b">$</text>
+      <text x="52" y="68" font-family="'Courier New',monospace" font-size="8.5" fill="#888">npx create-next-app</text>
+    </g>
+    <g class="f2">
+      <text x="30" y="86" font-family="'Courier New',monospace" font-size="8.5" fill="#444">✔ Project name:</text>
+      <text x="152" y="86" font-family="'Courier New',monospace" font-size="8.5" fill="#e8290b">niconve-app</text>
+    </g>
+    <g class="f3">
+      <text x="30" y="104" font-family="'Courier New',monospace" font-size="8.5" fill="#444">✔ TypeScript?</text>
+      <text x="138" y="104" font-family="'Courier New',monospace" font-size="8.5" fill="#f4f3ef" opacity=".6">Yes</text>
+    </g>
+    <g class="f4">
+      <text x="30" y="122" font-family="'Courier New',monospace" font-size="8.5" fill="#444">✔ Tailwind CSS?</text>
+      <text x="150" y="122" font-family="'Courier New',monospace" font-size="8.5" fill="#f4f3ef" opacity=".6">Yes</text>
+    </g>
+    <g class="f5">
+      <text x="30" y="140" font-family="'Courier New',monospace" font-size="8.5" fill="#333">Installing...</text>
+      <!-- Progress bars -->
+      <rect x="30" y="150" width="240" height="4" rx="2" fill="#1a1a1a"/>
+      <rect class="bar-fill" x="30" y="150" width="200" height="4" rx="2" fill="#e8290b" opacity=".8"/>
+
+      <rect x="30" y="160" width="240" height="4" rx="2" fill="#1a1a1a"/>
+      <rect class="bar-fill2" x="30" y="160" width="240" height="4" rx="2" fill="#f4f3ef" opacity=".2"/>
+
+      <rect x="30" y="170" width="240" height="4" rx="2" fill="#1a1a1a"/>
+      <rect class="bar-fill3" x="30" y="170" width="140" height="4" rx="2" fill="#e8290b" opacity=".4"/>
+    </g>
+    <g class="f6">
+      <text x="30" y="195" font-family="'Courier New',monospace" font-size="8.5" fill="#555">~</text>
+      <text x="42" y="195" font-family="'Courier New',monospace" font-size="8.5" fill="#e8290b">$</text>
+      <text x="52" y="195" font-family="'Courier New',monospace" font-size="8.5" fill="#888">npm run dev</text>
+      <rect class="blink2" x="128" y="187" width="6" height="10" fill="#f4f3ef" opacity=".7"/>
+    </g>
+
+    <!-- Top label -->
+    <text x="20" y="14" font-family="'Courier New',monospace" font-size="8" fill="#333" letter-spacing="3">NEXT.JS · NICONVE™</text>
+    <rect x="0" y="220" width="440" height="1" fill="#e8290b" opacity=".3"/>
+    <text x="20" y="228" font-family="'Courier New',monospace" font-size="7" fill="#333" letter-spacing="2">NEXT.JS · REACT · WEB DEVELOPMENT</text>
+  </g>
+</svg>

@@ -1,0 +1,115 @@
+<svg width="440" height="230" viewBox="0 0 440 230" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .f0{animation:fi .6s ease both}.f1{animation:fi .6s ease .2s both}.f2{animation:fi .6s ease .4s both}
+      .f3{animation:fi .6s ease .6s both}.f4{animation:fi .6s ease .8s both}.f5{animation:fi .6s ease 1s both}
+      @keyframes fi{from{opacity:0}to{opacity:1}}
+      .su{animation:su 1s cubic-bezier(.77,0,.18,1) .3s both}
+      .su2{animation:su 1s cubic-bezier(.77,0,.18,1) .5s both}
+      .su3{animation:su 1s cubic-bezier(.77,0,.18,1) .7s both}
+      @keyframes su{from{transform:translateY(40px);opacity:0}to{transform:none;opacity:1}}
+      .ul{stroke-dasharray:420;stroke-dashoffset:420;animation:ul 1.2s ease 1.1s forwards}
+      @keyframes ul{to{stroke-dashoffset:0}}
+      .dot-p{animation:dotp 2.5s ease-in-out infinite}
+      @keyframes dotp{0%,100%{r:5;opacity:1}50%{r:9;opacity:.3}}
+      .rot{animation:rot 20s linear infinite;transform-origin:380px 30px}
+      @keyframes rot{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+      .rot2{animation:rot2 15s linear infinite reverse;transform-origin:60px 200px}
+      @keyframes rot2{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+      .scan4{animation:scan4 5s linear infinite}
+      @keyframes scan4{from{transform:translateY(-10px)}to{transform:translateY(240px)}}
+      .count{animation:count 3s ease 1s both}
+      @keyframes count{from{opacity:0}to{opacity:1}}
+      .blink4{animation:blink4 1.4s ease-in-out infinite}
+      @keyframes blink4{0%,100%{opacity:1}50%{opacity:.1}}
+      .draw4{stroke-dasharray:500;stroke-dashoffset:500;animation:draw4 2s ease .5s forwards}
+      @keyframes draw4{to{stroke-dashoffset:0}}
+    </style>
+    <clipPath id="c4"><rect width="440" height="230"/></clipPath>
+    <clipPath id="nameClip"><rect x="0" y="60" width="440" height="110"/></clipPath>
+  </defs>
+
+  <!-- BG solid black -->
+  <rect width="440" height="230" fill="#0a0a0a"/>
+
+  <g clip-path="url(#c4)">
+    <!-- Scan -->
+    <rect class="scan4" x="0" y="0" width="440" height="1.5" fill="#f4f3ef" opacity=".03"/>
+
+    <!-- Rotating geometric top-right -->
+    <g class="rot f0">
+      <polygon points="380,30 400,5 420,30 400,55" fill="none" stroke="#e8290b" stroke-width="1" opacity=".4"/>
+      <polygon points="380,30 400,12 415,30 400,48" fill="none" stroke="#e8290b" stroke-width=".5" opacity=".2"/>
+    </g>
+
+    <!-- Rotating circle bottom-left -->
+    <g class="rot2 f0">
+      <circle cx="60" cy="200" r="30" fill="none" stroke="#f4f3ef" stroke-width=".5" stroke-dasharray="4 8" opacity=".12"/>
+      <circle cx="60" cy="200" r="18" fill="none" stroke="#e8290b" stroke-width=".8" stroke-dasharray="2 5" opacity=".3"/>
+    </g>
+
+    <!-- Grid dots pattern -->
+    <g class="f0" opacity=".08">
+      <circle cx="120" cy="30" r="1" fill="#f4f3ef"/><circle cx="160" cy="30" r="1" fill="#f4f3ef"/>
+      <circle cx="200" cy="30" r="1" fill="#f4f3ef"/><circle cx="240" cy="30" r="1" fill="#f4f3ef"/>
+      <circle cx="120" cy="55" r="1" fill="#f4f3ef"/><circle cx="160" cy="55" r="1" fill="#f4f3ef"/>
+      <circle cx="200" cy="55" r="1" fill="#f4f3ef"/><circle cx="240" cy="55" r="1" fill="#f4f3ef"/>
+    </g>
+
+    <!-- Big NICONVE text -->
+    <g clip-path="url(#nameClip)">
+      <text class="su" x="20" y="128"
+        font-family="Georgia,'Times New Roman',serif"
+        font-size="80" fill="#f4f3ef" letter-spacing="-3" font-weight="700" opacity=".95">NICO</text>
+      <text class="su2" x="218" y="128"
+        font-family="Georgia,'Times New Roman',serif"
+        font-style="italic" font-size="80" fill="#e8290b" letter-spacing="-3" opacity=".95">NVE</text>
+    </g>
+
+    <!-- TM mark -->
+    <text class="f3" x="418" y="70" font-family="'Courier New',monospace" font-size="11" fill="#555">™</text>
+
+    <!-- Underline draw -->
+    <line class="ul" x1="20" y1="136" x2="420" y2="136" stroke="#e8290b" stroke-width="1.5" opacity=".6"/>
+
+    <!-- Sub text -->
+    <g clip-path="url(#nameClip)">
+      <text class="su3" x="21" y="160"
+        font-family="'Courier New',monospace" font-size="9" fill="#555" letter-spacing="4">
+        ALDEN PRABASWARA · CREATIVE DEVELOPER
+      </text>
+    </g>
+
+    <!-- Stats bottom row -->
+    <g class="f4">
+      <rect x="20" y="175" width="80" height="32" rx="2" fill="#0f0f0f" stroke="#1a1a1a" stroke-width="1"/>
+      <text x="60" y="187" font-family="'Courier New',monospace" font-size="7" fill="#555" text-anchor="middle" letter-spacing="1">CAMPUS</text>
+      <text x="60" y="199" font-family="Georgia,serif" font-size="9" fill="#f4f3ef" text-anchor="middle" opacity=".7">UB · TI</text>
+    </g>
+    <g class="f4" style="animation-delay:.1s">
+      <rect x="110" y="175" width="80" height="32" rx="2" fill="#0f0f0f" stroke="#1a1a1a" stroke-width="1"/>
+      <text x="150" y="187" font-family="'Courier New',monospace" font-size="7" fill="#555" text-anchor="middle" letter-spacing="1">CITY</text>
+      <text x="150" y="199" font-family="Georgia,serif" font-size="9" fill="#f4f3ef" text-anchor="middle" opacity=".7">Malang</text>
+    </g>
+    <g class="f4" style="animation-delay:.2s">
+      <rect x="200" y="175" width="80" height="32" rx="2" fill="#0f0f0f" stroke="#1a1a1a" stroke-width="1"/>
+      <text x="240" y="187" font-family="'Courier New',monospace" font-size="7" fill="#555" text-anchor="middle" letter-spacing="1">YEAR</text>
+      <text x="240" y="199" font-family="Georgia,serif" font-size="9" fill="#f4f3ef" text-anchor="middle" opacity=".7">2026</text>
+    </g>
+    <g class="f4" style="animation-delay:.3s">
+      <rect x="290" y="175" width="130" height="32" rx="2" fill="#e8290b" opacity=".9"/>
+      <text x="355" y="187" font-family="'Courier New',monospace" font-size="7" fill="#f4f3ef" text-anchor="middle" letter-spacing="1">STATUS</text>
+      <text x="355" y="199" font-family="Georgia,serif" font-size="9" fill="#f4f3ef" text-anchor="middle">● Open to work</text>
+    </g>
+
+    <!-- Dot pulse top left -->
+    <circle class="dot-p f0" cx="22" cy="22" r="5" fill="#e8290b"/>
+
+    <!-- Top label -->
+    <text class="f0" x="38" y="26" font-family="'Courier New',monospace" font-size="8.5" fill="#444" letter-spacing="3">NICONVE™ · PROFILE</text>
+
+    <!-- Bottom bar -->
+    <rect x="0" y="220" width="440" height="1" fill="#e8290b" opacity=".5"/>
+    <text x="20" y="228" font-family="'Courier New',monospace" font-size="7" fill="#333" letter-spacing="2">WHERE DIFFERENT IS THE STANDARD · ✦</text>
+  </g>
+</svg>
