@@ -127,7 +127,6 @@ def write_stats(user):
   <line x1="290" y1="16" x2="290" y2="194" stroke="#1a1a1a" stroke-width="1"/>
   <line x1="580" y1="16" x2="580" y2="194" stroke="#1a1a1a" stroke-width="1"/>
 
-  <!-- BLOCK 1: Contributions -->
   <text x="28" y="36" font-family="'Courier New',monospace" font-size="8" fill="#444" letter-spacing="2.5">CONTRIBUTIONS</text>
   <text x="28" y="96" font-family="Georgia,serif" font-size="62" fill="#f4f3ef" font-weight="700">{cc["contributionCalendar"]["totalContributions"]}</text>
   <text x="28" y="116" font-family="'Courier New',monospace" font-size="8" fill="#555">all time · incl. private</text>
@@ -139,7 +138,6 @@ def write_stats(user):
   <text x="28" y="200" font-family="'Courier New',monospace" font-size="7.5" fill="#333" letter-spacing="1">FOLLOWERS</text>
   <text x="262" y="200" font-family="Georgia,serif" font-size="13" fill="#f4f3ef" opacity=".7" text-anchor="end">{user["followers"]["totalCount"]}</text>
 
-  <!-- BLOCK 2: Streak -->
   <text x="312" y="36" font-family="'Courier New',monospace" font-size="8" fill="#444" letter-spacing="2.5">STREAK</text>
   <text x="312" y="96" font-family="Georgia,serif" font-size="62" fill="#e8290b" font-weight="700">{cur_s}</text>
   <text x="400" y="84" font-family="'Courier New',monospace" font-size="10" fill="#e8290b" opacity=".6">days</text>
@@ -151,7 +149,6 @@ def write_stats(user):
   <text x="312" y="194" font-family="'Courier New',monospace" font-size="7.5" fill="#333" letter-spacing="1">ISSUES</text>
   <text x="560" y="194" font-family="Georgia,serif" font-size="13" fill="#f4f3ef" opacity=".5" text-anchor="end">{cc["totalIssueContributions"]}</text>
 
-  <!-- BLOCK 3: Languages -->
   <text x="604" y="36" font-family="'Courier New',monospace" font-size="8" fill="#444" letter-spacing="2.5">TOP LANGUAGES</text>
   {lang_bars(langs)}
 
