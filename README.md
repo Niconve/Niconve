@@ -152,13 +152,9 @@ status  : ● Open — available for collab & freelance
 ## 🏆 Trophies
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://github-profile-trophy.vercel.app/?username=Niconve&theme=onestar&no-frame=true&no-bg=true&margin-w=6&column=7"/>
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://github-profile-trophy.vercel.app/?username=Niconve&theme=flat&no-frame=true&no-bg=false&margin-w=6&column=7"/>
-  <img src="https://github-profile-trophy.vercel.app/?username=Niconve&theme=onestar&no-frame=true&no-bg=true&margin-w=6&column=7" width="100%"/>
-</picture>
+
+<img src="./trophies.svg" width="100%" alt="Trophies"/>
+
 </div>
 
 &nbsp;
@@ -168,11 +164,7 @@ status  : ● Open — available for collab & freelance
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://skillicons.dev/icons?i=androidstudio,kotlin,java,nextjs&theme=dark"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=androidstudio,kotlin,java,nextjs&theme=light"/>
-  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,nextjs&theme=dark" height="44"/>
-</picture>
+<img src="./stack.svg" width="100%" alt="Tech Stack"/>
 
 </div>
 
@@ -207,13 +199,7 @@ status  : ● Open — available for collab & freelance
 ## 📈 Activity
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-activity-graph.vercel.app/graph?username=Niconve&theme=react-dark&hide_border=true&bg_color=0a0a0a&color=8a8a8a&line=e8290b&point=f4f3ef&area=true&area_color=e8290b"/>
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-activity-graph.vercel.app/graph?username=Niconve&theme=github&hide_border=true&bg_color=f4f3ef&color=555&line=e8290b&point=0a0a0a&area=true&area_color=e8290b"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Niconve&theme=react-dark&hide_border=true&bg_color=0a0a0a&color=8a8a8a&line=e8290b&point=f4f3ef&area=true" width="100%"/>
-</picture>
+<img src="./activity.svg" width="100%" alt="Activity Graph"/>
 </div>
 
 &nbsp;
