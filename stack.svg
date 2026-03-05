@@ -1,0 +1,68 @@
+<svg width="860" height="130" viewBox="0 0 860 130" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="860" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#0f0a0a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="130" fill="url(#bg)" rx="4"/>
+  <rect width="860" height="130" fill="none" stroke="#1a1a1a" stroke-width="1" rx="4"/>
+
+  <!-- Title -->
+  <text x="32" y="28" font-family="'Courier New',monospace" font-size="8" fill="#444" letter-spacing="2.5">STACK &amp; TOOLS</text>
+  <rect x="32" y="34" width="796" height="1" fill="#1a1a1a"/>
+
+  <!-- ── Android Studio ── -->
+  <!-- Icon box -->
+  <rect x="32" y="48" width="52" height="52" rx="8" fill="#0f0f0f" stroke="#1e1e1e" stroke-width="1"/>
+  <!-- Android Studio icon simplified -->
+  <circle cx="58" cy="74" r="18" fill="none" stroke="#3DDC84" stroke-width="2"/>
+  <path d="M 46 68 L 58 56 L 70 68" fill="none" stroke="#3DDC84" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="52" cy="72" r="2" fill="#3DDC84"/>
+  <circle cx="64" cy="72" r="2" fill="#3DDC84"/>
+  <text x="58" y="114" font-family="'Courier New',monospace" font-size="7" fill="#555" text-anchor="middle" letter-spacing=".5">Android</text>
+  <text x="58" y="123" font-family="'Courier New',monospace" font-size="7" fill="#555" text-anchor="middle" letter-spacing=".5">Studio</text>
+
+  <!-- ── Kotlin ── -->
+  <rect x="116" y="48" width="52" height="52" rx="8" fill="#0f0f0f" stroke="#1e1e1e" stroke-width="1"/>
+  <!-- Kotlin diamond -->
+  <polygon points="142,56 164,56 142,78" fill="#e8290b" opacity=".8"/>
+  <polygon points="142,78 164,56 164,100 142,100" fill="#e8290b" opacity=".5"/>
+  <text x="142" y="114" font-family="'Courier New',monospace" font-size="7" fill="#555" text-anchor="middle" letter-spacing=".5">Kotlin</text>
+  <text x="142" y="123" font-family="'Courier New',monospace" font-size="7" fill="#333" text-anchor="middle">·</text>
+
+  <!-- ── Java ── -->
+  <rect x="200" y="48" width="52" height="52" rx="8" fill="#0f0f0f" stroke="#1e1e1e" stroke-width="1"/>
+  <!-- Java cup simplified -->
+  <path d="M 216 90 Q 226 96 236 90" fill="none" stroke="#f89820" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 214 70 L 214 88 Q 214 94 226 94 Q 238 94 238 88 L 238 70 Z" fill="none" stroke="#f89820" stroke-width="1.5"/>
+  <path d="M 238 76 Q 246 76 244 82 Q 242 88 238 86" fill="none" stroke="#f89820" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 220 70 Q 218 63 226 60 Q 234 57 222 52" fill="none" stroke="#f89820" stroke-width="1.2" opacity=".6" stroke-linecap="round"/>
+  <text x="226" y="114" font-family="'Courier New',monospace" font-size="7" fill="#555" text-anchor="middle" letter-spacing=".5">Java</text>
+  <text x="226" y="123" font-family="'Courier New',monospace" font-size="7" fill="#333" text-anchor="middle">·</text>
+
+  <!-- ── Next.js ── -->
+  <rect x="284" y="48" width="52" height="52" rx="8" fill="#0f0f0f" stroke="#1e1e1e" stroke-width="1"/>
+  <circle cx="310" cy="74" r="20" fill="#111" stroke="#333" stroke-width="1"/>
+  <text x="310" y="81" font-family="Georgia,serif" font-weight="700" font-size="22" fill="#f4f3ef" text-anchor="middle" opacity=".9">N</text>
+  <line x1="296" y1="62" x2="322" y2="90" stroke="#f4f3ef" stroke-width="2.5" opacity=".5"/>
+  <text x="310" y="114" font-family="'Courier New',monospace" font-size="7" fill="#555" text-anchor="middle" letter-spacing=".5">Next.js</text>
+  <text x="310" y="123" font-family="'Courier New',monospace" font-size="7" fill="#333" text-anchor="middle">·</text>
+
+  <!-- Divider -->
+  <line x1="368" y1="48" x2="368" y2="100" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Available label -->
+  <text x="390" y="68" font-family="'Courier New',monospace" font-size="8" fill="#333" letter-spacing="1.5">CURRENTLY</text>
+  <text x="390" y="82" font-family="Georgia,serif" font-style="italic" font-size="18" fill="#f4f3ef" opacity=".7">learning &amp;</text>
+  <text x="390" y="100" font-family="Georgia,serif" font-size="18" fill="#e8290b" opacity=".8">building.</text>
+
+  <!-- Status pill -->
+  <rect x="600" y="55" width="220" height="36" rx="18" fill="#0f0f0f" stroke="#1a1a1a" stroke-width="1"/>
+  <circle cx="626" cy="73" r="5" fill="#22c55e"/>
+  <text x="638" y="78" font-family="'Courier New',monospace" font-size="9" fill="#888" letter-spacing="1">OPEN TO COLLAB</text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="126" width="860" height="4" rx="2" fill="#e8290b" opacity=".6"/>
+</svg>

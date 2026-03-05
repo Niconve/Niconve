@@ -1,0 +1,88 @@
+<svg width="860" height="150" viewBox="0 0 860 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="860" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#0f0a0a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="bronze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cd7c3a"/>
+      <stop offset="100%" stop-color="#9a5c28"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="150" fill="url(#bg)" rx="4"/>
+  <rect width="860" height="150" fill="none" stroke="#1a1a1a" stroke-width="1" rx="4"/>
+
+  <!-- Title -->
+  <text x="32" y="28" font-family="'Courier New',monospace" font-size="8" fill="#444" letter-spacing="2.5">TROPHIES &amp; ACHIEVEMENTS</text>
+  <rect x="32" y="34" width="796" height="1" fill="#1a1a1a"/>
+
+  <!-- Trophy helper macro: cx = center x, color -->
+  <!-- Trophy 1: FirstCommit -->
+  <g transform="translate(50,52)">
+    <path d="M-16,0 Q-18,-8 -12,-16 L-6,-24 L6,-24 L12,-16 Q18,-8 16,0 Z" fill="url(#gold)" opacity=".9"/>
+    <rect x="-5" y="0" width="10" height="6" fill="url(#gold)" opacity=".7"/>
+    <rect x="-10" y="6" width="20" height="4" rx="1" fill="url(#gold)" opacity=".8"/>
+    <line x1="-18" y1="-4" x2="-16" y2="0" stroke="#fbbf24" stroke-width="2" opacity=".5"/>
+    <line x1="18" y1="-4" x2="16" y2="0" stroke="#fbbf24" stroke-width="2" opacity=".5"/>
+    <text x="0" y="-10" font-family="'Courier New',monospace" font-size="5.5" fill="#0a0a0a" text-anchor="middle" font-weight="700">1st</text>
+    <text x="0" y="26" font-family="'Courier New',monospace" font-size="6.5" fill="#fbbf24" text-anchor="middle" opacity=".8">First Commit</text>
+    <text x="0" y="36" font-family="'Courier New',monospace" font-size="6" fill="#555" text-anchor="middle">Gold</text>
+  </g>
+
+  <!-- Trophy 2: Joined GitHub -->
+  <g transform="translate(170,52)">
+    <path d="M-16,0 Q-18,-8 -12,-16 L-6,-24 L6,-24 L12,-16 Q18,-8 16,0 Z" fill="url(#silver)" opacity=".9"/>
+    <rect x="-5" y="0" width="10" height="6" fill="url(#silver)" opacity=".7"/>
+    <rect x="-10" y="6" width="20" height="4" rx="1" fill="url(#silver)" opacity=".8"/>
+    <line x1="-18" y1="-4" x2="-16" y2="0" stroke="#94a3b8" stroke-width="2" opacity=".5"/>
+    <line x1="18" y1="-4" x2="16" y2="0" stroke="#94a3b8" stroke-width="2" opacity=".5"/>
+    <text x="0" y="-8" font-family="'Courier New',monospace" font-size="5" fill="#0a0a0a" text-anchor="middle" font-weight="700">GH</text>
+    <text x="0" y="26" font-family="'Courier New',monospace" font-size="6.5" fill="#94a3b8" text-anchor="middle" opacity=".8">Joined GitHub</text>
+    <text x="0" y="36" font-family="'Courier New',monospace" font-size="6" fill="#555" text-anchor="middle">Silver</text>
+  </g>
+
+  <!-- Trophy 3: Commits -->
+  <g transform="translate(290,52)">
+    <path d="M-16,0 Q-18,-8 -12,-16 L-6,-24 L6,-24 L12,-16 Q18,-8 16,0 Z" fill="url(#bronze)" opacity=".9"/>
+    <rect x="-5" y="0" width="10" height="6" fill="url(#bronze)" opacity=".7"/>
+    <rect x="-10" y="6" width="20" height="4" rx="1" fill="url(#bronze)" opacity=".8"/>
+    <line x1="-18" y1="-4" x2="-16" y2="0" stroke="#cd7c3a" stroke-width="2" opacity=".5"/>
+    <line x1="18" y1="-4" x2="16" y2="0" stroke="#cd7c3a" stroke-width="2" opacity=".5"/>
+    <text x="0" y="-8" font-family="'Courier New',monospace" font-size="5" fill="#0a0a0a" text-anchor="middle" font-weight="700">11</text>
+    <text x="0" y="26" font-family="'Courier New',monospace" font-size="6.5" fill="#cd7c3a" text-anchor="middle" opacity=".8">Total Commits</text>
+    <text x="0" y="36" font-family="'Courier New',monospace" font-size="6" fill="#555" text-anchor="middle">Bronze</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="368" y1="42" x2="368" y2="130" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Right: roadmap / upcoming -->
+  <text x="390" y="60" font-family="'Courier New',monospace" font-size="7.5" fill="#333" letter-spacing="2">NEXT MILESTONES</text>
+
+  <rect x="390" y="68" width="440" height="1" fill="#1a1a1a"/>
+
+  <!-- Milestone rows -->
+  <circle cx="402" cy="82" r="3" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <text x="416" y="86" font-family="'Courier New',monospace" font-size="8" fill="#444">MultiCommit</text>
+  <text x="780" y="86" font-family="'Courier New',monospace" font-size="7" fill="#333" text-anchor="end">100 commits →</text>
+
+  <circle cx="402" cy="100" r="3" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <text x="416" y="104" font-family="'Courier New',monospace" font-size="8" fill="#444">Repositories</text>
+  <text x="780" y="104" font-family="'Courier New',monospace" font-size="7" fill="#333" text-anchor="end">5+ repos →</text>
+
+  <circle cx="402" cy="118" r="3" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <text x="416" y="122" font-family="'Courier New',monospace" font-size="8" fill="#444">LongTimeUser</text>
+  <text x="780" y="122" font-family="'Courier New',monospace" font-size="7" fill="#333" text-anchor="end">2+ years →</text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="146" width="860" height="4" rx="2" fill="#e8290b" opacity=".6"/>
+</svg>

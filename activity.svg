@@ -1,0 +1,67 @@
+<svg width="860" height="140" viewBox="0 0 860 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="860" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#0f0a0a"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8290b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#e8290b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="140" fill="url(#bg)" rx="4"/>
+  <rect width="860" height="140" fill="none" stroke="#1a1a1a" stroke-width="1" rx="4"/>
+
+  <!-- Title -->
+  <text x="32" y="24" font-family="'Courier New',monospace" font-size="8" fill="#444" letter-spacing="2.5">CONTRIBUTION ACTIVITY · 2026</text>
+  <rect x="32" y="30" width="796" height="1" fill="#1a1a1a"/>
+
+  <!-- Month labels -->
+  <text x="55"  y="44" font-family="'Courier New',monospace" font-size="7" fill="#333">Aug</text>
+  <text x="165" y="44" font-family="'Courier New',monospace" font-size="7" fill="#333">Oct</text>
+  <text x="275" y="44" font-family="'Courier New',monospace" font-size="7" fill="#333">Dec</text>
+  <text x="385" y="44" font-family="'Courier New',monospace" font-size="7" fill="#333">Feb</text>
+  <text x="495" y="44" font-family="'Courier New',monospace" font-size="7" fill="#333">Apr</text>
+  <text x="605" y="44" font-family="'Courier New',monospace" font-size="7" fill="#333">Jun</text>
+  <text x="720" y="44" font-family="'Courier New',monospace" font-size="7" fill="#333">Now</text>
+
+  <!-- Grid lines horizontal -->
+  <line x1="32" y1="55" x2="828" y2="55" stroke="#111" stroke-width=".5"/>
+  <line x1="32" y1="75" x2="828" y2="75" stroke="#111" stroke-width=".5"/>
+  <line x1="32" y1="95" x2="828" y2="95" stroke="#111" stroke-width=".5"/>
+  <line x1="32" y1="115" x2="828" y2="115" stroke="#111" stroke-width=".5"/>
+
+  <!-- Area fill under line -->
+  <polygon points="
+    32,115
+    80,115 100,113 130,112 160,114 200,115 240,115
+    280,115 320,115 360,110 400,108 440,112
+    480,115 520,115 560,115 600,115 640,115
+    680,95 700,80 720,65 740,75 760,95
+    780,110 800,115 828,115
+  " fill="url(#area)"/>
+
+  <!-- Line graph -->
+  <polyline points="
+    32,115 80,115 100,113 130,112 160,114 200,115 240,115
+    280,115 320,115 360,110 400,108 440,112
+    480,115 520,115 560,115 600,115 640,115
+    680,95 700,80 720,65 740,75 760,95
+    780,110 800,115 828,115
+  " fill="none" stroke="#e8290b" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Peak dot -->
+  <circle cx="720" cy="65" r="4" fill="#e8290b"/>
+  <circle cx="720" cy="65" r="8" fill="#e8290b" opacity=".2"/>
+  <text x="724" y="60" font-family="'Courier New',monospace" font-size="7" fill="#e8290b">peak</text>
+
+  <!-- Y axis labels -->
+  <text x="20" y="58"  font-family="'Courier New',monospace" font-size="6.5" fill="#333" text-anchor="end">5</text>
+  <text x="20" y="78"  font-family="'Courier New',monospace" font-size="6.5" fill="#333" text-anchor="end">3</text>
+  <text x="20" y="98"  font-family="'Courier New',monospace" font-size="6.5" fill="#333" text-anchor="end">2</text>
+  <text x="20" y="118" font-family="'Courier New',monospace" font-size="6.5" fill="#333" text-anchor="end">0</text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="136" width="860" height="4" rx="2" fill="#e8290b" opacity=".6"/>
+</svg>
