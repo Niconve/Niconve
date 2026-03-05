@@ -1,0 +1,49 @@
+<svg width="540" height="170" viewBox="0 0 540 170" xmlns="http://www.w3.org/2000/svg">
+  <rect width="540" height="170" fill="#0d0d0d" rx="4"/>
+  <rect width="540" height="170" fill="none" stroke="#1e1e1e" stroke-width="1" rx="4"/>
+
+  <!-- left red bar -->
+  <rect x="0" y="0" width="3" height="170" fill="#e8290b" opacity=".7" rx="2"/>
+
+  <!-- rows -->
+  <!-- brand -->
+  <text x="22" y="30" font-family="'Courier New',monospace" font-size="9" fill="#e8290b" opacity=".7" letter-spacing="1">brand</text>
+  <text x="100" y="30" font-family="'Courier New',monospace" font-size="9" fill="#444">:</text>
+  <text x="116" y="30" font-family="Georgia,serif" font-weight="700" font-size="11" fill="#f4f3ef" opacity=".9" letter-spacing="1">NICONVE™</text>
+
+  <line x1="22" y1="38" x2="518" y2="38" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- name -->
+  <text x="22" y="56" font-family="'Courier New',monospace" font-size="9" fill="#e8290b" opacity=".7" letter-spacing="1">name</text>
+  <text x="100" y="56" font-family="'Courier New',monospace" font-size="9" fill="#444">:</text>
+  <text x="116" y="56" font-family="'Courier New',monospace" font-size="9" fill="#888">Alden Prabaswara</text>
+
+  <line x1="22" y1="64" x2="518" y2="64" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- campus -->
+  <text x="22" y="82" font-family="'Courier New',monospace" font-size="9" fill="#e8290b" opacity=".7" letter-spacing="1">campus</text>
+  <text x="100" y="82" font-family="'Courier New',monospace" font-size="9" fill="#444">:</text>
+  <text x="116" y="82" font-family="'Courier New',monospace" font-size="9" fill="#888">Teknik Informatika · Universitas Brawijaya</text>
+
+  <line x1="22" y1="90" x2="518" y2="90" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- city -->
+  <text x="22" y="108" font-family="'Courier New',monospace" font-size="9" fill="#e8290b" opacity=".7" letter-spacing="1">city</text>
+  <text x="100" y="108" font-family="'Courier New',monospace" font-size="9" fill="#444">:</text>
+  <text x="116" y="108" font-family="'Courier New',monospace" font-size="9" fill="#888">Malang, Jawa Timur · Indonesia</text>
+
+  <line x1="22" y1="116" x2="518" y2="116" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- stack -->
+  <text x="22" y="134" font-family="'Courier New',monospace" font-size="9" fill="#e8290b" opacity=".7" letter-spacing="1">stack</text>
+  <text x="100" y="134" font-family="'Courier New',monospace" font-size="9" fill="#444">:</text>
+  <text x="116" y="134" font-family="'Courier New',monospace" font-size="9" fill="#888">Android Dev · Next.js · Kotlin · Java</text>
+
+  <line x1="22" y1="142" x2="518" y2="142" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- status -->
+  <text x="22" y="160" font-family="'Courier New',monospace" font-size="9" fill="#e8290b" opacity=".7" letter-spacing="1">status</text>
+  <text x="100" y="160" font-family="'Courier New',monospace" font-size="9" fill="#444">:</text>
+  <circle cx="122" cy="156" r="3.5" fill="#22c55e"/>
+  <text x="132" y="160" font-family="'Courier New',monospace" font-size="9" fill="#22c55e" opacity=".8">Open — available for collab &amp; freelance</text>
+</svg>
