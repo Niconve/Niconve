@@ -15,16 +15,9 @@
 
 <img src="./typing.svg" width="100%" alt="typing"/>
 
-<br/><br/>
+<br/>
 
-```yaml
-brand   : NICONVE™
-name    : Alden Prabaswara
-campus  : Teknik Informatika · Universitas Brawijaya
-city    : Malang, Jawa Timur · Indonesia
-stack   : Android Dev · Next.js · Kotlin · Java
-status  : ● Open — available for collab & freelance
-```
+<img src="./bio.svg" width="100%" alt="bio"/>
 
 </td>
 <td valign="top" align="center" width="35%">
