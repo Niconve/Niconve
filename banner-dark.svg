@@ -1,0 +1,118 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Backgrounds -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#0f0a0a"/>
+    </linearGradient>
+
+    <!-- Red glow -->
+    <radialGradient id="redglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8290b" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#e8290b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Clip -->
+    <clipPath id="main"><rect width="1200" height="260"/></clipPath>
+
+    <!-- Animations -->
+    <style>
+      .line-in { animation: lineIn 1.4s cubic-bezier(.77,0,.18,1) forwards; transform-origin: top; transform: scaleY(0); }
+      .line-in-2 { animation: lineIn 1.4s cubic-bezier(.77,0,.18,1) .15s forwards; transform-origin: top; transform: scaleY(0); }
+      .line-in-3 { animation: lineIn 1.4s cubic-bezier(.77,0,.18,1) .3s forwards; transform-origin: top; transform: scaleY(0); }
+      @keyframes lineIn { to { transform: scaleY(1); } }
+
+      .fade-in   { animation: fadeIn .9s ease .5s both; }
+      .fade-in-2 { animation: fadeIn .9s ease .7s both; }
+      .fade-in-3 { animation: fadeIn .9s ease .9s both; }
+      .fade-in-4 { animation: fadeIn .9s ease 1.1s both; }
+      .fade-in-5 { animation: fadeIn .9s ease 1.3s both; }
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+      .slide-up   { animation: slideUp 1.1s cubic-bezier(.77,0,.18,1) .3s both; }
+      .slide-up-2 { animation: slideUp 1.1s cubic-bezier(.77,0,.18,1) .45s both; }
+      .slide-up-3 { animation: slideUp 1.1s cubic-bezier(.77,0,.18,1) .6s both; }
+      @keyframes slideUp { from { transform: translateY(60px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+      .dot-pulse { animation: dotPulse 2.4s ease-in-out infinite; }
+      @keyframes dotPulse { 0%,100%{r:5;opacity:1} 50%{r:8;opacity:.4} }
+
+      .triangle-in { animation: triIn 1.2s cubic-bezier(.77,0,.18,1) .1s both; transform-origin: top right; }
+      @keyframes triIn { from{transform:scale(0);opacity:0} to{transform:scale(1);opacity:.88} }
+
+      .marquee { animation: marquee 20s linear infinite; }
+      @keyframes marquee { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+      .underline-in { animation: underIn 1s cubic-bezier(.77,0,.18,1) 1s both; transform-origin: left; transform: scaleX(0); }
+      @keyframes underIn { to { transform: scaleX(1); } }
+
+      .num-float { animation: numFloat 8s ease-in-out infinite; }
+      @keyframes numFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+    </style>
+  </defs>
+
+  <g clip-path="url(#main)">
+    <!-- BG -->
+    <rect width="1200" height="260" fill="url(#bg)"/>
+
+    <!-- Red glow top right -->
+    <ellipse cx="1050" cy="80" rx="300" ry="180" fill="url(#redglow)"/>
+
+    <!-- Red triangle accent -->
+    <polygon class="triangle-in" points="1200,0 820,0 1200,200" fill="#e8290b" opacity=".88"/>
+
+    <!-- Grid lines vertical -->
+    <line class="line-in"   x1="300" y1="0" x2="300" y2="260" stroke="#f4f3ef" stroke-width=".5" opacity=".06"/>
+    <line class="line-in-2" x1="600" y1="0" x2="600" y2="260" stroke="#f4f3ef" stroke-width=".5" opacity=".06"/>
+    <line class="line-in-3" x1="900" y1="0" x2="900" y2="260" stroke="#f4f3ef" stroke-width=".5" opacity=".06"/>
+
+    <!-- Grid lines horizontal -->
+    <line class="fade-in" x1="0" y1="86" x2="1200" y2="86" stroke="#f4f3ef" stroke-width=".5" opacity=".05"/>
+    <line class="fade-in" x1="0" y1="173" x2="1200" y2="173" stroke="#f4f3ef" stroke-width=".5" opacity=".05"/>
+
+    <!-- Ghost number BG -->
+    <text class="num-float fade-in" x="760" y="290" font-family="Georgia,serif" font-style="italic"
+          font-size="360" fill="#f4f3ef" opacity=".022" letter-spacing="-20">01</text>
+
+    <!-- Red dot -->
+    <circle class="fade-in" cx="60" cy="54" r="26" fill="#e8290b" opacity=".12"/>
+    <circle class="dot-pulse fade-in" cx="60" cy="54" r="5" fill="#e8290b"/>
+
+    <!-- Top label -->
+    <text class="fade-in" x="88" y="58" font-family="'Courier New',monospace"
+          font-size="9" fill="#555" letter-spacing="3.5">NICONVE™ · CREATIVE DEVELOPER · 2026</text>
+
+    <!-- Main headline -->
+    <g clip-path="url(#main)">
+      <text class="slide-up" x="56" y="148"
+            font-family="Georgia,'Times New Roman',serif" font-style="italic"
+            font-size="94" fill="#f4f3ef" letter-spacing="-4" opacity=".95">Alden</text>
+    </g>
+    <g clip-path="url(#main)">
+      <text class="slide-up-2" x="58" y="216"
+            font-family="Georgia,'Times New Roman',serif"
+            font-size="94" fill="#f4f3ef" letter-spacing="-4" font-weight="700">PRABASWARA</text>
+    </g>
+
+    <!-- Underline -->
+    <rect class="underline-in" x="58" y="222" width="570" height="3" fill="#e8290b"/>
+
+    <!-- Right side details -->
+    <line class="fade-in-2" x1="836" y1="120" x2="836" y2="210" stroke="#f4f3ef" stroke-width=".6" opacity=".14"/>
+    <text class="fade-in-2" x="952" y="136" font-family="'Courier New',monospace"
+          font-size="10.5" fill="#777" letter-spacing="2" text-anchor="middle">CREATIVE DEVELOPER</text>
+    <text class="fade-in-3" x="952" y="158" font-family="'Courier New',monospace"
+          font-size="10.5" fill="#555" letter-spacing="2" text-anchor="middle">TEKNIK INFORMATIKA · UB</text>
+    <text class="fade-in-4" x="952" y="180" font-family="'Courier New',monospace"
+          font-size="10.5" fill="#555" letter-spacing="2" text-anchor="middle">MALANG · INDONESIA</text>
+    <text class="fade-in-5" x="952" y="202" font-family="'Courier New',monospace"
+          font-size="10.5" fill="#e8290b" letter-spacing="2" text-anchor="middle">● OPEN TO WORK</text>
+
+    <!-- Bottom bar -->
+    <rect class="fade-in" x="0" y="248" width="1200" height="1" fill="#f4f3ef" opacity=".07"/>
+    <text class="fade-in" x="58" y="256" font-family="'Courier New',monospace"
+          font-size="8.5" fill="#3a3a3a" letter-spacing="3.5">WHERE DIFFERENT IS THE STANDARD</text>
+    <text class="fade-in" x="1142" y="256" font-family="'Courier New',monospace"
+          font-size="9" fill="#e8290b" opacity=".8" text-anchor="end">✦</text>
+  </g>
+</svg>
