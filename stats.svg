@@ -41,10 +41,10 @@
   <text x="28" y="184" font-family="'Courier New',monospace" font-size="7.5" fill="#333" letter-spacing="1">COMMITS 2026</text>
   <text x="262" y="184" font-family="Georgia,serif" font-size="13" fill="#f4f3ef" opacity=".7" text-anchor="end">110</text>
   <text x="28" y="200" font-family="'Courier New',monospace" font-size="7.5" fill="#333" letter-spacing="1">FOLLOWERS</text>
-  <text x="262" y="200" font-family="Georgia,serif" font-size="13" fill="#f4f3ef" opacity=".7" text-anchor="end">2</text>
+  <text x="262" y="200" font-family="Georgia,serif" font-size="13" fill="#f4f3ef" opacity=".7" text-anchor="end">3</text>
 
   <text x="312" y="36" font-family="'Courier New',monospace" font-size="8" fill="#444" letter-spacing="2.5">STREAK</text>
-  <text x="312" y="96" font-family="Georgia,serif" font-size="62" fill="#e8290b" font-weight="700">1</text>
+  <text x="312" y="96" font-family="Georgia,serif" font-size="62" fill="#e8290b" font-weight="700">0</text>
   <text x="400" y="84" font-family="'Courier New',monospace" font-size="10" fill="#e8290b" opacity=".6">days</text>
   <text x="312" y="116" font-family="'Courier New',monospace" font-size="8" fill="#555">current streak</text>
   <text x="312" y="152" font-family="'Courier New',monospace" font-size="7.5" fill="#333" letter-spacing="1">LONGEST STREAK</text>
@@ -58,7 +58,7 @@
     <text x="604" y="55" font-family="'Courier New',monospace" font-size="9" fill="#888">Kotlin</text>
   <rect x="604" y="61" width="220" height="5" rx="2" fill="#1a1a1a"/>
   <rect x="604" y="61" width="193" height="5" rx="2" fill="#e8290b" opacity=".85"/>
-  <text x="828" y="67" font-family="'Courier New',monospace" font-size="8" fill="#555" text-anchor="end">87.9%</text>
+  <text x="828" y="67" font-family="'Courier New',monospace" font-size="8" fill="#555" text-anchor="end">88.0%</text>
   <text x="604" y="87" font-family="'Courier New',monospace" font-size="9" fill="#888">CSS</text>
   <rect x="604" y="93" width="220" height="5" rx="2" fill="#1a1a1a"/>
   <rect x="604" y="93" width="12" height="5" rx="2" fill="#e8290b" opacity=".85"/>
@@ -66,7 +66,7 @@
   <text x="604" y="119" font-family="'Courier New',monospace" font-size="9" fill="#888">TypeScript</text>
   <rect x="604" y="125" width="220" height="5" rx="2" fill="#1a1a1a"/>
   <rect x="604" y="125" width="7" height="5" rx="2" fill="#e8290b" opacity=".85"/>
-  <text x="828" y="131" font-family="'Courier New',monospace" font-size="8" fill="#555" text-anchor="end">3.3%</text>
+  <text x="828" y="131" font-family="'Courier New',monospace" font-size="8" fill="#555" text-anchor="end">3.2%</text>
   <text x="604" y="151" font-family="'Courier New',monospace" font-size="9" fill="#888">JavaScript</text>
   <rect x="604" y="157" width="220" height="5" rx="2" fill="#1a1a1a"/>
   <rect x="604" y="157" width="4" height="5" rx="2" fill="#e8290b" opacity=".85"/>
@@ -76,6 +76,6 @@
   <rect x="604" y="189" width="1" height="5" rx="2" fill="#e8290b" opacity=".85"/>
   <text x="828" y="195" font-family="'Courier New',monospace" font-size="8" fill="#555" text-anchor="end">0.9%</text>
 
-  <text x="604" y="202" font-family="'Courier New',monospace" font-size="7" fill="#222" letter-spacing="1">updated: 2026-03-05 05:12 UTC</text>
+  <text x="604" y="202" font-family="'Courier New',monospace" font-size="7" fill="#222" letter-spacing="1">updated: 2026-03-06 02:12 UTC</text>
   <rect x="0" y="206" width="860" height="4" rx="2" fill="#e8290b" opacity=".6"/>
 </svg>
