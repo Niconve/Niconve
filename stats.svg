@@ -58,11 +58,11 @@
     <text x="604" y="55" font-family="'Courier New',monospace" font-size="9" fill="#888">Kotlin</text>
   <rect x="604" y="61" width="220" height="5" rx="2" fill="#1a1a1a"/>
   <rect x="604" y="61" width="196" height="5" rx="2" fill="#e8290b" opacity=".85"/>
-  <text x="828" y="67" font-family="'Courier New',monospace" font-size="8" fill="#555" text-anchor="end">89.4%</text>
+  <text x="828" y="67" font-family="'Courier New',monospace" font-size="8" fill="#555" text-anchor="end">89.3%</text>
   <text x="604" y="87" font-family="'Courier New',monospace" font-size="9" fill="#888">CSS</text>
   <rect x="604" y="93" width="220" height="5" rx="2" fill="#1a1a1a"/>
   <rect x="604" y="93" width="11" height="5" rx="2" fill="#e8290b" opacity=".85"/>
-  <text x="828" y="99" font-family="'Courier New',monospace" font-size="8" fill="#555" text-anchor="end">5.1%</text>
+  <text x="828" y="99" font-family="'Courier New',monospace" font-size="8" fill="#555" text-anchor="end">5.2%</text>
   <text x="604" y="119" font-family="'Courier New',monospace" font-size="9" fill="#888">TypeScript</text>
   <rect x="604" y="125" width="220" height="5" rx="2" fill="#1a1a1a"/>
   <rect x="604" y="125" width="6" height="5" rx="2" fill="#e8290b" opacity=".85"/>
@@ -76,6 +76,6 @@
   <rect x="604" y="189" width="1" height="5" rx="2" fill="#e8290b" opacity=".85"/>
   <text x="828" y="195" font-family="'Courier New',monospace" font-size="8" fill="#555" text-anchor="end">0.8%</text>
 
-  <text x="604" y="202" font-family="'Courier New',monospace" font-size="7" fill="#222" letter-spacing="1">updated: 2026-03-08 02:23 UTC</text>
+  <text x="604" y="202" font-family="'Courier New',monospace" font-size="7" fill="#222" letter-spacing="1">updated: 2026-03-09 02:25 UTC</text>
   <rect x="0" y="206" width="860" height="4" rx="2" fill="#e8290b" opacity=".6"/>
 </svg>
